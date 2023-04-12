@@ -1,0 +1,44 @@
+.subtarea-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtarea-input {
+  width: 350px;
+  height: 20px;
+  font-size: 18px;
+  background-color: aliceblue;
+  padding: 14px 32px 14px 16px;
+  border: 2px solid #1b1b32;
+  outline: none;
+  user-select: none;
+  border-radius: 3px;
+  box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.63);
+  transition: all 0.3s;
+}
+
+.subtarea-botton {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  padding: 16px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+  outline: none;
+  background: #1b1b32;
+  color: aliceblue;
+  text-transform: capitalize;
+  box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.63);
+  transition: all 0.15s;
+}
+
+.subtarea-botton:active {
+  background: #43437c;
+  translate: -1.5%;
+  scale: 0.8;
+}
